@@ -1,3 +1,4 @@
 - 👋 Hi!
-- 👀 I’m interested in solana, web3
+- I’m interested in solana, web3
+- I support decentralization by holding a Solana validator in Brazil
 - more updates coming soon...
