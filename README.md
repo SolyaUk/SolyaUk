@@ -1,4 +1,3 @@
-- 👋 Hi!
-- I’m interested in solana, web3
+- 👋 Hi! My name is Solya!
 - I support decentralization by holding a Solana validator in Brazil
 - more updates coming soon...
