@@ -1,4 +1,4 @@
 - 👋 Hi! My name is Solya!
 - I support decentralization by holding a Solana validator in Brazil 🇧🇷
 - I am currently developing a global dashboard that will reveal decentralization in a new form
-- More updates coming soon...
+- More updates coming VERY soon!
