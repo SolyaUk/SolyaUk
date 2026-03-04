@@ -1,36 +1,26 @@
 # Hey, I'm Solya 👋
 
-Independent Solana validator operator from Ukraine, building tools for network transparency and decentralization.
+Solana validator operator from Ukraine. Building tools for network decentralization.
 
-## ⚡ Solya Validator
+## ⚡ Validator
 
-0% commission validator deliberately hosted in São Paulo, Brazil — because decentralization means putting nodes where they're needed, not where it's cheapest.
+I run a 0% commission validator from São Paulo, Brazil — deliberately outside the US/EU datacenter majority to actually contribute to geographic decentralization.
 
-**What this means in practice:**
+DoubleZero connected · SFDP approved · Jito BAM · 0% MEV commission
 
-- **0% commission** on both inflation rewards and MEV — delegators keep everything they earn
-- **South America presence** — actively reducing Solana's geographic concentration in US/EU datacenters
-- **DoubleZero connected** — invested in dedicated network infrastructure for lower latency and higher reliability
-- **SFDP approved** — recognized by the Solana Foundation Delegation Program
-- **Open source tooling** — building public tools that benefit the entire network, not just this validator
+→ [`HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC`](https://stakewiz.com/validator/HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC) · [solya.studio](https://solya.studio)
 
-Identity: [`HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC`](https://stakewiz.com/validator/HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC) · [solya.studio](https://solya.studio)
+## 🔭 SONDA
 
-## 🔭 SONDA — Built from the same values
+**[Solana Observatory for Network Decentralization Analysis](https://github.com/SolyaUk/sonda)**
 
-**[SONDA](https://github.com/SolyaUk/sonda)** — Solana Observatory for Network Decentralization Analysis
+Running a validator in Brazil made me ask: how decentralized is Solana, really? Turns out most dashboards rely on a single geo source and don't question the data. So I built something that does.
 
-Running a validator in Brazil raised a question: how decentralized is Solana, really? Most dashboards show a single data source and call it done. SONDA was built to answer that question properly:
+SONDA cross-verifies every IP against 4 geo providers, uses DoubleZero device locations as ground truth, maps the full infrastructure (validators, DZ, BAM, Jito, Harmonic, Rakurai), and computes Nakamoto, HHI, Gini, Shannon entropy across country × ASN × city × validator — all in a single ~17-second scan of ~5,000 nodes.
 
-- **Cross-verified geolocation** — every IP checked against 4 independent providers; discrepancies detected, not hidden
-- **Protocol-verified ground truth** — DoubleZero device locations correct what geo databases get wrong
-- **Complete infrastructure map** — validators, RPC nodes, DZ devices, BAM nodes, Jito, Harmonic, Rakurai
-- **Multi-dimensional metrics** — Nakamoto, HHI, Gini, Shannon entropy across country × ASN × city × validator
-- **Production-tested** — ~5,000 nodes analyzed per scan on mainnet
+Dashboard coming soon → [sonda.network](https://sonda.network)
 
-🌐 Public dashboard coming soon at [sonda.network](https://sonda.network)
-
-## 🛠️ Tech
+## 🛠️
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
