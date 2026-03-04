@@ -4,7 +4,7 @@ Solana validator operator from Ukraine. Building open source tools for network d
 
 ## ⚡ Validator
 
-I've been running a Solana validator since 2021 — with 0% commission on both inflation and MEV rewards. The node is deliberately hosted in São Paulo, Brazil, outside the US/EU datacenter majority, to actually contribute to geographic decentralization of the network.
+I've been running a Solana validator since 2021. Working now with 0% commission on both inflation and MEV rewards. The node is deliberately hosted in São Paulo, Brazil, outside the US/EU datacenter majority, to actually contribute to geographic decentralization of the network.
 
 DoubleZero connected · SFDP approved · Jito BAM · 0% MEV commission
 
