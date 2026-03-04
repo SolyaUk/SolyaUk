@@ -8,7 +8,7 @@ I run a 0% commission validator from São Paulo, Brazil — deliberately outside
 
 DoubleZero connected · SFDP approved · Jito BAM · 0% MEV commission
 
-→ [`HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC`](https://stakewiz.com/validator/HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC) · [solya.studio](https://solya.studio)
+☀️ [`HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC`](https://stakewiz.com/validator/HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC) · [solya.studio](https://solya.studio)
 
 ## 🔭 SONDA
 
