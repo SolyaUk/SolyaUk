@@ -1,33 +1,39 @@
 # Hey, I'm Solya 👋
 
-Solana validator operator from Ukraine. Building open source tools for network decentralization.
+Solana validator operator from Ukraine. I run Solya Validator and, with a small team, build SONDA: open-source infrastructure analytics for Solana validators.
 
 ## ⚡ Validator
 
-I've been running a Solana validator since 2021. Working now with 0% commission on both inflation and MEV rewards. The node is deliberately hosted in Hong Kong, outside the US/EU datacenter majority, to actually contribute to geographic decentralization of the network.
+I've been running a Solana validator since 2021, with 0% commission on both inflation and MEV rewards. Since September 2026 the node has been running in Hong Kong, outside the US/EU datacenter majority. I chose the city and the datacenter with SONDA. Before that it ran in São Paulo and Singapore.
 
-DoubleZero connected · SFDP approved · Jito BAM · 0% MEV commission
+SFDP approved · Jito BAM · DoubleZero multicast · XDP · Alpenglow community cluster genesis validator
 
-🔗 [StakeWiz](https://stakewiz.com/validator/HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC) · [solya.studio](https://solya.studio)
+Solya takes part in every Solana governance vote: the SIMD votes, including SIMD-0326 for Alpenglow, and the SGP votes, including SGP-0001, the Solana Constitution.
+
+Vote account: `HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC`
+
+🔗 [solya.studio](https://solya.studio) · [StakeWiz](https://stakewiz.com/validator/HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC)
 
 ## 🔭 SONDA
 
-**[Solana Observatory for Network Decentralization Analysis](https://github.com/SolyaUk/sonda)**
+**[sonda.network](https://sonda.network)**: Solana Observatory for Network Decentralization Analysis
 
-Over the years of running a validator, I kept running into the same problem: the data you need to make good infrastructure decisions just isn't reliable. Choosing a datacenter, evaluating geographic distribution, comparing latency across regions — tools like validators.app and others often show inaccurate or conflicting location data, and there's no way to tell which source is right.
+Choosing a datacenter was hard. The data was spread across different sites and often did not match, and there was no easy way to see the network's infrastructure and performance together. I started with private scripts to cross-check it for myself. They grew into SONDA, an open tool anyone can use, and we build it in public through Colosseum hackathons.
 
-I started writing scripts to cross-check this stuff for myself. Then decentralization became more than just a personal concern — it became clear that the whole network needs better visibility into its own structure. That's when I decided to turn those private scripts into an open tool that anyone can use.
+What works today:
 
-SONDA is the result:
+- 🏢 **Datacenters** grouped by hosting provider, with flexible filters: compare every provider and location by stake, performance and infrastructure
+- 🧭 **Validators**: stake level, performance rank, vote performance, Jito BAM and DoubleZero connections
+- 🌍 **Cross-checked geolocation**: several sources per node, disagreements shown openly, datacenters verified by hand
+- 🗺️ **Network infrastructure** by provider and city: Jito BAM nodes and block engines, DoubleZero devices, RPC
+- 💓 **Cluster health**: consensus, slot time, throughput, halt detection and restart progress
+- 📊 **Decentralization metrics**: Nakamoto, HHI, Gini and Shannon
+- 🧪 **All four clusters**: mainnet-beta, testnet, devnet and the Alpenglow community cluster (most validator dashboards leave out devnet)
+- 🔓 **Open source and open data**: MIT licensed, the raw JSON is public
 
-- 🌍 **Cross-verified geolocation** — every IP checked against 4 independent providers (DB-IP, IPInfo, GeoJS, ip-api), discrepancies detected and logged, not hidden
-- 📡 **DoubleZero as ground truth** — protocol-verified device locations automatically correct what geo databases get wrong
-- 🗺️ **Full infrastructure map** — not just validators, but DZ devices, BAM nodes, Jito block engines, Harmonic, Rakurai, NTP servers, RPC nodes, co-hosted nodes — 16 role types total
-- 📊 **Multi-dimensional metrics** — Nakamoto coefficient, HHI, Gini, Shannon entropy across country, ASN, city, and validator dimensions simultaneously
-- ⚡ **Fast** — full mainnet scan of ~5,000 nodes in ~17 seconds with intelligent per-source caching
-- 🔓 **Open source** — MIT licensed, all data sources documented
+In progress: ranks in performance-based stake pools, an endpoints and RPC page, incidents, and validator location history. Longer term: a scoring system for datacenters and validators.
 
-Public dashboard coming soon at [sonda.network](https://sonda.network)
+Code: [sonda](https://github.com/SolyaUk/sonda) (backend and data) · [sonda-network](https://github.com/SolyaUk/sonda-network) (dashboard)
 
 ## 🛠️ Tech
 
@@ -37,3 +43,10 @@ Public dashboard coming soon at [sonda.network](https://sonda.network)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat&logo=rust&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![Astro](https://img.shields.io/badge/-Astro-BC52EE?style=flat&logo=astro&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
+
+## 📬 Contact
+
+X: [@SolyaOS](https://x.com/SolyaOS) · [@SondaNetwork](https://x.com/SondaNetwork) · Telegram: [@solya_os](https://t.me/solya_os)
